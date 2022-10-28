@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "markers",
+  "info": {
+    "name": "Markers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mapping": {
+      "type": "json"
+    },
+    "version": {
+      "type": "string"
+    }
+  }
+}
